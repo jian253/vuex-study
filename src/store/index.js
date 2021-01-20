@@ -8,7 +8,15 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state:{
-    count:0
+    count:0,
+    addval:2,
+    todos:[],//测试getters和getters联动
+    muntionsParams:{
+      show:false,
+      tip:'',
+      type:"success"//error || sucess
+    },
+    user:{}
   },
   getters,
   mutations,

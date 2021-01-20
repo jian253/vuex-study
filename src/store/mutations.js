@@ -17,6 +17,15 @@ const mutations = {
         }else{
             state.count --
         }
+    },
+    [TYPES.SET_MUTATIONS_PARAMS](state, v){
+        if(v){
+            state.muntionsParams=v;
+        }
+    },
+    setUsers(state,v){
+        state.user=v;
     }
+
 }
 export default mutations

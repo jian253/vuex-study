@@ -1,0 +1,29 @@
+ │   ├── components/
+   │   ├── store/
+   │   │   ├── actions/
+   │   │   │   ├──aAction.js
+   │   │   │   ├──bAction.js
+   │   │   │   └──cAction.js
+   │   │   ├── constants/
+   │   │   │   └── types.js
+   │   │   ├── getters/
+   │   │   │   └── aGetter.js
+   │   │   ├── modules/
+   │   │   │   ├── aModules.js
+   │   │   │   ├── bModules.js
+   │   │   │   ├── cModules.js
+   │   │   │   └── index.js
+   │   │   ├── mutations/
+   │   │   │   ├── aMutation.js
+   │   │   │   ├── bMutation.js
+   │   │   │   └── cMutation.js
+   │   │   └── index.js
+   │   ├── App.vue
+   │   └── main.js
+   ├── static/
+   ├── utils/
+   ├── test/
+   └── index.html
+
+
+   这种才是做合适目录
